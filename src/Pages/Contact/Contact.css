@@ -1,0 +1,37 @@
+.box-contact{
+    border: solid 1px rgb(250, 249, 249);
+    text-align: center;
+    width: 20% !important;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-box{
+    margin-left: 20% !important;
+    margin-top: 9% !important;
+}
+.textBOx{
+    margin-left: 24%;
+    
+}
+.rowContact{
+    margin-top: 3%;
+}
+.contect-input{
+    border:  solid 1px rgb(233, 229, 229);
+    padding: 20px;
+     width: 80% !important;
+     border-radius: 10px;
+}
+.btn-message{
+    border-radius: 10px;
+    width: 40% !important;
+    border: none;
+    padding: 2%;
+    margin-top: 3%;
+
+}
+.messageInput{
+    border-radius: 10px !important;
+} 

@@ -1,0 +1,21 @@
+
+.seriva-Image{
+    width: 100% !important;
+    border-radius: 20px;
+}
+.services-text{
+    font-size: 13px;
+    font-weight: 500;
+}
+.head-text{
+    color: gray;
+    margin-top: 4%;
+}
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    border: 1px solid whitesmoke !important; 
+}
+.title-hade{
+    color: red;
+    font-size: 30px;
+}

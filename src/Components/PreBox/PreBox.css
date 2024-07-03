@@ -1,0 +1,22 @@
+.priBox{
+    border: 1px solid rgb(224, 220, 220);
+    padding-left: 30%;
+    border-radius: 20px !important;
+    padding-top: 4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* padding: 5% !important ; */
+}
+.title-text{
+    font-size: 30px;
+    font-weight: 500;
+}
+.mony-text{
+    font-size: 20px !important;
+    font-weight: 700;
+    color: red;
+    margin-right: 20%;
+}
+.preBox{
+    margin-left: 13% !important;
+    margin-top: 20%;
+}

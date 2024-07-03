@@ -1,0 +1,67 @@
+.tableBox{
+    border: 1px solid rgb(211, 211, 211);
+    padding: 2% !important;
+    width: 94% !important;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 5%;
+}
+.viewTracking-box{
+    margin-left: 13% !important;
+    margin-top: 6% !important;
+}
+.eye-icon{
+    background: red;
+    color: aliceblue !important;
+    padding: 6%;
+    border-radius: 20px;
+    margin-left: 20% !important;
+}
+.dot-icon{
+    background: green;
+    color: aliceblue !important;
+    padding: 6%;
+    border-radius: 20px;
+    margin-left: 20% !important;
+}
+
+ /* Users.css */
+ .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 160px;
+  }
+  
+  .dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-container:hover .dropdown-menu {
+    display: block;
+  }
+  .imageItem{
+    width: 77%;
+    border-radius: 10%;
+  }
+  .imageTd{
+    width: 10% !important;
+  }

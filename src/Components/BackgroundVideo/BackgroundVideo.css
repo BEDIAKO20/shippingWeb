@@ -1,0 +1,52 @@
+.video-container {
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.355); /* Change this to any color and opacity you like */
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+  margin: 10px 0 0;
+  width: 60%; /* Ensuring that the text width is 60% */
+}

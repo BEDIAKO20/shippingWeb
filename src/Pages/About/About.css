@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+
+.logistics-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px !important;
+    width: 100% !important;
+}
+.read-btn{
+    border-radius: 20px;
+    width: 30%;
+    padding: 2% !important;
+    background-color: black;
+    color: aliceblue !important;
+}
+.to-image{
+    width: 100% !important;
+    border-radius: 20px !important;
+    
+}
+.losictict-box{
+    margin-top: 20%;
+}
+.losi-box{
+    margin-top: 10%;
+}
+.haed-check{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700 !important;
+    font-size: 200%;
+}
+/* .about-box{
+    background-color: rgba(180, 244, 244, 0.166);
+    
+} */
+ .text-box{
+    margin-top: 10%;
+ }
+ .hread-text{
+    text-align: center !important;
+    font-family: "Poppins", sans-serif;
+ }
+ .text-mission{
+    width: 79% !important;
+    margin-left: 12% !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+ }

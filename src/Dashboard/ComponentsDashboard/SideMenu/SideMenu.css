@@ -1,0 +1,173 @@
+.navbar {
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  .order-lits{
+       font-size: 16px;
+       font-weight: 500;
+       margin-right: 20% !important;
+  }
+  
+  .nav-menu {
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    width: 210px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+    
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1px 0px 16px 0px;
+    list-style: none;
+    height: 60px; 
+    font-size: 1px !important;
+  }
+  /* .nav-lists{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0px 16px 0px;
+    list-style: none;
+    height: 60px; 
+  } */
+  .nav-text a {
+    text-decoration: none;
+    color:#03040c ;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0px;
+    padding-top: 10%;
+    border-radius: 4px;
+  }
+  .order-TextLIst{
+    /* margin-left: 10% !important; */
+  }
+  /* .nav-text a:hover {
+    background-color: #1a83ff;
+  } */
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
+  
+  .notification-icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .notification-count {
+    position: absolute;
+    top:16px;
+    right: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    padding: 4px 8px;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  
+  /* Media query for print styles */
+@media print {
+  .navbar{
+    display: none !important;
+  }
+  .nav-menu{
+    display: none;
+  }
+ /* Adjust font size for print */
+  }
+
+
+.centre-order{
+  /* color: red; */
+
+}
+ 
+  /* Custom styles for the NavDropdown */
+.nav-lists {
+  /* Example styling for the dropdown container */
+  /* background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: Arial, sans-serif; */
+}
+
+.nav-lists .dropdown-menu {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+.nav-lists .dropdown-item {
+  color: #333;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.nav-lists .dropdown-item:hover {
+  background-color: #013301;
+  color: #ffffff;
+
+}
+
+.order-lits {
+  margin-left: 20px !important;
+  font-size: 15px;
+ 
+  /* font-weight: bold; */
+}
+
+.order-TextLIst {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+/* Example of adding an icon size adjustment */
+/* .nav-lists .dropdown-item svg {
+  margin-right: 5px;
+  vertical-align: middle;
+} */
